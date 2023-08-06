@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import SecondComp from './components/SecondComp'
-import MyComponent from './components/MyComponent'
+import MapComp from './components/MapComp'
+// import MapWithADirectionsRenderer from './components/Com'
 
 
 function App() {
@@ -9,9 +9,11 @@ function App() {
 
   return (
     <>
-     <MyComponent/>
+     {/* <MyComponent/> */}
      {/* <MapWit  hADirectionsRenderer/> */}
      {/* <SecondComp/> */}
+     {/* <MapWithADirectionsRenderer/> */}
+     <MapComp/>
     </>
   )
 }
